@@ -140,7 +140,7 @@ nav > a {
 .products article {
     background-color: white;
     width: 220px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
@@ -150,14 +150,14 @@ nav > a {
    PRODUCT IMAGES
 ========================= */
 
-.product-image {
-    width: 180px;
-    height: 220px;
-    object-fit: cover;
+.products article img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
     border-radius: 10px;
     margin-bottom: 15px;
 }
-
 .products article h3 {
     margin-bottom: 10px;
     font-size: 20px;
